@@ -1,6 +1,6 @@
-x=0 y=0 z=0 div=0.6
+x=0 y=0 z=0
 oldX=x oldY=y oldZ=z x=:xx y=:yy z=:zz xx=x-oldX yy=y-oldY zz=z-oldZ
-:deltas="\nX: "+(xx/div)+"\nY: "+(yy/div)+"\nZ: "+(zz/div) GOTO 4
+:deltas="\nX: "+xx+"\nY: "+yy+"\nZ: "+zz GOTO 4
 GOTO 5
 GOTO 6
 GOTO 2

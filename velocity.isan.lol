@@ -1,6 +1,6 @@
-x=0 y=0 z=0
+x=0 y=0 z=0 d=0.6 m=" m/s"
 oldX=x oldY=y oldZ=z x=:xx y=:yy z=:zz xx=x-oldX yy=y-oldY zz=z-oldZ
-:vel="\nX: "+xx+"\nY: "+yy+"\nZ: "+zz GOTO 4
+:vel="\nX: "+(xx/d)+m+"\nY: "+(yy/d)+m+"\nZ: "+(zz/d)+m GOTO 4
 GOTO 5
 GOTO 6
 GOTO 2
