@@ -1,5 +1,5 @@
 x=0 y=0 z=0
-oldX=x oldY=y oldZ=z z=:xx y=:yy z=:zz xx=x-oldX yy=y-oldY zz=z-oldZ
+oldX=x oldY=y oldZ=z x=:xx y=:yy z=:zz xx=x-oldX yy=y-oldY zz=z-oldZ
 :vel="\nX: "+xx+"\nY: "+yy+"\nZ: "+zz GOTO 4
 GOTO 5
 GOTO 6
