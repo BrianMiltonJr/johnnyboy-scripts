@@ -1,9 +1,9 @@
 x=0 y=0 z=0
 oldX=x oldY=y oldZ=z x=:xx y=:yy z=:zz xx=x-oldX yy=y-oldY zz=z-oldZ
 :deltas="\nX: "+xx+"\nY: "+yy+"\nZ: "+zz GOTO 4
-GOTO 5
-GOTO 6
-GOTO 2
+i=0
+IF i < 30 THEN i++ GOTO 5 END GOTO 2
+
 
 //Velocity ISAN Module - Johnwillikers
 //Requires a Textpanel named Vel (Change :deltas on line 3)
